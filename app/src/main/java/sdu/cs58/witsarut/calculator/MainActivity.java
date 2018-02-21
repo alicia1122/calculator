@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         DivideButton = findViewById(R.id.btnDivide);
         ResultTextView = findViewById(R.id.txvResult);
 
-        //3. สั่งให้ปุ่มดักฟัง
+        //3. สั่งให้ปุ่มดักการทำงาน
         AddButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
