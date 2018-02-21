@@ -7,12 +7,12 @@
     tools:context="sdu.cs58.witsarut.calculator.MainActivity">
 
     <EditText
-        android:id="@+id/edtNumber 1"
+        android:id="@+id/edtNumber1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:ems="10"
         android:hint="input number 1"
         android:inputType="number"
@@ -34,7 +34,7 @@
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtNumber 1" />
+        app:layout_constraintTop_toBottomOf="@+id/edtNumber1" />
 
     <Button
         android:id="@+id/btnAdd"
@@ -42,7 +42,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="32dp"
         android:backgroundTint="@color/colorAccent"
         android:text="Button"
         app:layout_constraintEnd_toEndOf="parent"
@@ -50,7 +50,7 @@
         app:layout_constraintTop_toBottomOf="@+id/edtNumber2" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/txvResult"
         android:layout_width="wrap_content"
         android:layout_height="20dp"
         android:layout_marginBottom="8dp"
